@@ -1,10 +1,13 @@
 #!/bin/bash
 
 # stage changes
-git _
+git add .
 
 # commit changes
-git _
+git commit -m "Basic Git Workflow Exercise"
 
 # push changes
-git _
+git push origin main
+
+echo "Changes have been added, committed, and pushed"
+
